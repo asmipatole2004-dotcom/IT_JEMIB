@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: black;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input {
+  padding: 8px;
+  width: 65%;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+li {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+li.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+h1, li {
+  color: white;
+}
+
+label {
+  color: white;
+}
